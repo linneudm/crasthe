@@ -1,0 +1,38 @@
+{
+	"name": "web_pluspdv",
+	"version": "1.0.0",
+	"repository": "git@bitbucket.org:infog2-dev/web_pluspdv.git",
+	"author": "Linneu Lopes <linneu.dm@gmail.com>",
+	"main": "App.js",
+	"scripts": {
+		"build": "webpack --mode=production --config webpack.config.js --progress --colors",
+		"start": "webpack --mode=development --config webpack.config.js --watch"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"ant-design-vue": "^1.4.10",
+		"axios": "^0.19.0",
+		"lodash": "^4.17.15",
+		"node-sass": "^4.13.0",
+		"sass-loader": "^8.0.0",
+		"v-mask": "^2.0.2",
+		"vue": "^2.6.10",
+		"vue-router": "^3.1.3",
+		"vue-styled-components": "^1.4.14",
+		"vuex": "^3.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.4",
+		"@babel/preset-env": "^7.7.4",
+		"babel-loader": "^8.0.6",
+		"cross-env": "^6.0.3",
+		"css-loader": "^3.2.0",
+		"file-loader": "^5.0.2",
+		"inputmask": "^4.0.9",
+		"sweetalert2": "^9.4.0",
+		"vue-loader": "^15.7.2",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10"
+	}
+}

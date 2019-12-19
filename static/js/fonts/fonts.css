@@ -1,0 +1,25 @@
+@font-face{
+     font-family: CircularStd-Medium;
+     src: url('CircularStd-Medium.woff2') format('woff2'),
+          url('CircularStd-Medium.woff') format('woff');
+ }
+
+ @font-face{
+     font-family: CircularStd-Book;
+     src: url('CircularStd-Book.woff2') format('woff2'),
+          url('CircularStd-Book.woff') format('woff');
+ }
+
+ @font-face{
+     font-family: CircularStd-Bold;
+     src: url('CircularStd-Bold.woff2') format('woff2'),
+          url('CircularStd-Bold.woff') format('woff');
+ }
+    
+ @font-face{
+     font-family: CircularStd-Black;
+     src: url('CircularStd-Black.woff2') format('woff2'),
+          url('CircularStd-Black.woff') format('woff');
+ }
+
+
